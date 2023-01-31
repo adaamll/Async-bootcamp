@@ -80,7 +80,7 @@ function celebrate() {
   });
 }
 
-const logToConsole = async () => {
+async function logToConsole() {
   console.log(await doResearch());
   console.log(await sketchDesign());
   console.log(await pixelPerfect());
@@ -88,6 +88,6 @@ const logToConsole = async () => {
   console.log(await stackOverFlow());
   console.log(await testTheProduct());
   console.log(await celebrate());
-};
+}
 
 logToConsole();
