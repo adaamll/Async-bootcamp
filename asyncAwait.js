@@ -1,5 +1,5 @@
 //############# POLKA LOVER ###############
-async function letsDance(danceStyle) {
+function letsDance(danceStyle) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       if (danceStyle === 'polka') {
