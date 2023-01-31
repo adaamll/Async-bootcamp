@@ -12,12 +12,12 @@ function letsDance(danceStyle) {
   });
 }
 
-letsDance('polka')
+letsDance('waltz')
   .then((fromResolve) => {
     console.log(`The dance is ${fromResolve}`);
   })
   .catch((fromReject) => {
-    console.log(`The dance is ${fromReject}`);
+    console.error(`The dance is ${fromReject}`);
   });
 
 //############# WEBBPROJEKTET ###############
